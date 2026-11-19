@@ -40,7 +40,7 @@ def get_embedding_model():
 
 @st.cache_resource
 def get_llm():
-    return ChatMistralAI(model="openai/gpt-oss-120b")
+    return ChatGroq(model="openai/gpt-oss-120b")
 
 
 prompt = ChatPromptTemplate.from_messages(
