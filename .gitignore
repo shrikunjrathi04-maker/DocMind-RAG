@@ -1,0 +1,27 @@
+# API keys
+.env
+.env.*
+!.env.example
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Chroma vector database
+chroma-db/
+chroma_db/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.logfind "document loaders" "vector store" -maxdepth 2 -type f
+
+document loaders/*.pdf
+document loaders/notes.txt
